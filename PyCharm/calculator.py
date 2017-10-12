@@ -1,19 +1,23 @@
 class calculator:
     def addition(self, x, y):
         added = x + y
-        print(added)
+        #print(added)
+        return added
 
     def subtraction(self, x, y):
         sub = x - y
-        print(sub)
+        #print(sub)
+        return  sub
 
     def multiplication(self, x, y):
         mult = x * y
-        print(mult)
+        #print(mult)
+        return mult
 
     def division(self, x, y):
-        div = x / y
-        print(div)
+        divi = (x / y)
+        #print(div)
+        return  divi
 
 
 
