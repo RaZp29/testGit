@@ -5,6 +5,8 @@ def key_input(event):
         print("Left Arrow Key pressed")
     elif event == curses.KEY_RIGHT:
         print("Right Arrow Key pressed")
+    elif event == curses.KEY_DOWN:
+        print("Lower Arrow Key pressed")
     elif event == curses.KEY_UP:
         curses.endwin()
     else:
